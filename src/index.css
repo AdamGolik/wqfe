@@ -1,0 +1,555 @@
+.header {
+    position: absolute;
+}
+
+.imga {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    width: 102%;
+    height: 110vh;
+    z-index: 1;
+    display: block;
+}
+
+.nav {
+    position: absolute;
+    left: 78%;
+    top: 2%;
+    z-index: 99;
+    width: 400px;
+    height: 30px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    border: 1px solid transparent;
+    justify-content: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width 0.3s;
+}
+
+.nav a:hover::after {
+    width: 100%;
+}
+.logo{
+    position: relative;
+    z-index: 98;
+    color: white;
+    width: 300px;
+    border: 1px solid transparent;
+    left: 10%;
+}
+.logo p{
+    position: absolute;
+    left: 70%;
+    top: 30px;
+    font-family: '.AppleSystemUIFont', cursive;
+    font-size: 20px;
+}
+.logo h1{
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+}
+.ONas{
+    z-index: 1209381;
+}
+.ONas h2 {
+    position: absolute;
+    top: 580px;
+    z-index: 99;
+    left: 80px;
+    color: white;
+    font-size: 70px;
+    font-style: italic;
+}
+.ONas h1{
+    position: absolute;
+    top: 700px;
+    z-index: 9912;
+    left: 250px;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+.About {
+    width: 100%;
+    height: 400vh;
+    position: relative;
+    top: 700px;
+}
+.Masaże_i{
+    position: relative;
+    z-index: 10;
+    width: 50%;
+    height:400px;
+    top: 270px;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.grid-container {
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    top: 600px;
+    width: 50%;
+    display: grid;
+    gap: 20px;
+}
+
+.type {
+    width: 100%;
+    position: relative;
+    height: 170px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    border-top-style: dashed;
+    margin-bottom: 20px;
+}
+
+.type h1 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 200;
+    left: 20px;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.type p {
+    width: 70%;
+    font-size: 11px;
+    left: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    top: -8px;
+    position: relative;
+}
+
+.price-time {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    border: 1px solid transparent;
+    position: relative;
+    margin-left: auto;
+    top: 10px;
+}
+
+.price-time h6 {
+    position: relative;
+    font-family: Tahoma, Geneva, sans-serif;
+    top: -120px;
+    left: 50px;
+    font-size: 27px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+.price-time h3 {
+    position: relative;
+    font-family: "Courier New", Courier, monospace;
+    right: 66px;
+    bottom: 30px;
+    font-size: 24px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+.Rytuał{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    margin-top: -100px;
+}
+.Pielęgnacja_c,
+.Pielęgnacja_t {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Rytuał h2,
+.Pielęgnacja_c h2,
+.Pielęgnacja_t h2 {
+    position: relative;
+    left: 80%;
+    transform: translateX(-50%);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+.typs img{
+    border-radius: 20px;
+}
+.P_img_c{
+    margin-top: -150px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.P_img_a{
+    margin-top: 150px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.Contact{
+    width: 100%;
+    position: relative;
+    border: 1px solid tan;
+    top: 150px;
+    margin-top: 100px;
+}
+    .Contact h1 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        font-style: italic;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+        color: #222;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    .Contact h5 {
+        text-align: center;
+        font-size: 26px;
+        font-weight: lighter;
+        font-style: italic;
+    }
+    .tel{
+        position: relative;
+        text-align: center;
+        left: 25%;
+        transform: translateX(-50%);
+        width: 200px;
+        border: 1px solid black;
+    }
+.email{
+    position: relative;
+    top: -70px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    border: 1px solid black;
+}
+.Elem{
+    position: relative;
+    left: 10%;
+}
+@media screen and (max-width: 1200px) {
+    .header {
+        position: static;
+    }
+
+    .imga {
+        width: 101%;
+        height: 100vh;
+    }
+
+    .nav {
+        left: 80%;
+        transform: translateX(-50%);
+        width: 400px;
+        height: auto;
+        flex-direction: row;
+        gap: 20px;
+        text-transform: none;
+    }
+
+    .nav a {
+        font-size: 21px;
+    }
+
+    .logo {
+        width: 80%;
+        left: 10%;
+    }
+
+    .logo p {
+        left: 200px;
+        top: 50px;
+        font-size: 16px;
+    }
+
+    .logo h1 {
+        top: 0;
+    }
+
+    .ONas h2 {
+        top: 580px;
+        left: 40px;
+        font-size: 50px;
+    }
+
+    .ONas h1 {
+        top: 680px;
+        left: 70px;
+        font-size: 20px;
+    }
+
+    .About {
+        height: auto;
+        top: 600px;
+    }
+
+    .Masaże_i {
+        width: 80%;
+        left: 50%;
+    }
+
+    .grid-container {
+        width: 90%;
+        top: 400px;
+        gap: 10px;
+    }
+
+    .type {
+        height: auto;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .type h1 {
+        font-size: 20px;
+        left: 50px;
+    }
+
+    .type p {
+        width: 100%;
+        font-size: 10px;
+        top: 20px;
+        left: 50px;
+    }
+
+    .price-time {
+        width: 100%;
+        margin-left: 0;
+        justify-content: space-between;
+    }
+
+    .price-time h6{
+        position: relative;
+        left: 88%;
+        font-size: 18px;
+        top: -80px;
+    }
+    .price-time h3 {
+        font-size: 20px;
+    }
+
+    .Rytuał,
+    .Pielęgnacja_c,
+    .Pielęgnacja_t {
+        margin-top: 0;
+    }
+
+    .Rytuał h2,
+    .Pielęgnacja_c h2,
+    .Pielęgnacja_t h2 {
+        left: 50%;
+        font-size: 30px;
+    }
+    .Contact{
+        width: 100%;
+        position: relative;
+        top: 50px;
+        margin-top: 100px;
+    }
+    .Contact h1 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        font-style: italic;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+        color: #222;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    .Contact h5 {
+        text-align: center;
+        font-size: 26px;
+        font-weight: lighter;
+        font-style: italic;
+    }
+    .tel{
+        position: relative;
+        text-align: center;
+        left: 25%;
+        transform: translateX(-50%);
+        width: 200px;
+    }
+    .email{
+        position: relative;
+        top: -90px;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200px;
+    }
+    .Elem{
+        position: relative;
+        top: 150px;
+        left: 10%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .header {
+        position: static;
+    }
+
+    .imga {
+        width: 104%;
+        height: 100vh;
+    }
+
+    .nav {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 400px;
+        height: auto;
+        flex-direction: row;
+        gap: 20px;
+        text-transform: none;
+    }
+
+    .nav a {
+        font-size: 11px;
+    }
+
+    .logo {
+        width: 80%;
+        left: 1%;
+        top: 10px;
+    }
+
+    .logo p {
+        left: 100px;
+        top: 50px;
+        font-size: 16px;
+    }
+
+    .logo h1 {
+        top: 0;
+    }
+
+    .ONas h2 {
+        top: 680px;
+        left: 40px;
+        font-size: 30px;
+    }
+
+    .ONas h1 {
+        top: 780px;
+        left: 70px;
+        font-size: 15px;
+    }
+
+    .About {
+        height: auto;
+        top: 600px;
+    }
+
+    .Masaże_i {
+        width: 80%;
+        left: 50%;
+    }
+
+    .grid-container {
+        width: 90%;
+        top: 400px;
+        gap: 10px;
+    }
+
+    .type {
+        height: auto;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .type h1 {
+        font-size: 20px;
+        left: 10px;
+    }
+
+    .type p {
+        width: 100%;
+        font-size: 10px;
+        top: 10px;
+        left:10px;
+    }
+
+    .price-time {
+        width: 100%;
+        margin-left: 0;
+        justify-content: space-between;
+    }
+
+    .price-time h6{
+        position: relative;
+        left: 10%;
+        font-size: 18px;
+        top: -20px;
+    }
+    .price-time h3 {
+        position: relative;
+        top: 30px;
+        left: -70%;
+        font-size: 20px;
+    }
+
+    .Rytuał,
+    .Pielęgnacja_c,
+    .Pielęgnacja_t {
+        margin-top: 0;
+    }
+
+    .Rytuał h2,
+    .Pielęgnacja_c h2,
+    .Pielęgnacja_t h2 {
+        left: 50%;
+        font-size: 30px;
+    }
+}
